@@ -1,0 +1,4 @@
+Neste App:
+Utilizando:
+Plugion do Ionic Natvi Geolocation
+Plugin do Google Maps
