@@ -7,7 +7,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HomePage } from '../pages/home/home';
 
 //Plugin
 import { IonicStorageModule } from '@ionic/storage';
@@ -27,7 +26,6 @@ import { FirebaseProvider } from '../providers/firebase';
 //Pages
 import { LoginPageModule } from '../pages/login/login.module';
 //import { HomePageModule } from '../pages/home/home.module';
-import { HomePage } from '../pages/home/home';
 
 @NgModule({
   declarations: [
@@ -43,7 +41,6 @@ import { HomePage } from '../pages/home/home';
     //Outros
     BrowserModule,
     BrowserAnimationsModule,
-    IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFirestoreModule,
     AngularFireAuthModule,
