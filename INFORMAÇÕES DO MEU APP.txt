@@ -2,3 +2,5 @@ Neste App:
 Utilizando:
 Plugion do Ionic Natvi Geolocation
 Plugin do Google Maps
+pacote do fire base: npm i firebase --save
+pacote do angular: npm i angularfire2 --save
